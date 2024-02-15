@@ -11,11 +11,11 @@ html{
     font-size: 60%;
 }*/
 
-.caja{
+.caja h1{
     /*width: 940px;*/
     position: relative;
     margin: 20px auto;
-    font-size: 26px;
+    font-size: 35px;
     color: #ffffff;
     /*margin-bottom: 20px;*/
     text-align: center;
