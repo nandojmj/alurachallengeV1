@@ -1,10 +1,10 @@
 
-/* Selecciona todos los elementos. El selector universal CSS (*) coincide con elementos de cualquier tipo*/
+/* Selecciona todos los elementos. El selector universal CSS (*) coincide con elementos de cualquier tipo
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;/* el borde de cada uno de los item sera el limite del espacio*/
-}
+    box-sizing: border-box;/* el borde de cada uno de los item sera el limite del espacio
+}*/
 
 /* Selecciona el elemento raíz del documento: <html> en el caso de HTML */
 html{
@@ -19,7 +19,6 @@ html{
     color: #ffffff;
     /*margin-bottom: 20px;*/
     text-align: center;
-
 }
 
 body{
@@ -72,7 +71,7 @@ main{
     }
 }
 textarea{
-    width: 100%;
+    width: 90%;
     border: none;
     height: 180px;
     padding: 16px;
@@ -112,7 +111,7 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     transition: all .3s ease;
     cursor: pointer;
 }
-.btn:hover{ /* cuando el usuario pasa el cursor sobre el elemento produce un cambio*/
+.btn:hover{ /* al capturar el movimiento mouse producir cambio sobre elemento*/
     background-color: transparent;
     color: #1A8CE6;
 }
