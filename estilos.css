@@ -15,7 +15,8 @@ html{
     /*width: 940px;*/
     position: relative;
     margin: 20px auto;
-    font-size: 35px;
+    font-size: 30px;
+    font-family: Helvetica, Arial, sans-serif;
     color: #ffffff;
     /*margin-bottom: 20px;*/
     text-align: center;
@@ -58,9 +59,8 @@ main{
     background-color: rgba(106, 108, 104, 0.35);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(32px);
-    /*-webkit-*/
-    backdrop-filter: blur(32px);
+   /* backdrop-filter: blur(32px);
+    backdrop-filter: blur(32px);*/
     padding: 20px;
     display: grid;
     gap: 20px;
