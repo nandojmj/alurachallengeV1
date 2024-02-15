@@ -15,7 +15,7 @@ html{
     position: relative;
     margin: 0 auto;
     font-size: 20px;
-    color: #1A8CE6;
+    color: #ffffff;
     /*margin-bottom: 20px;*/
     text-align: center;
 
@@ -44,12 +44,12 @@ main{
 }*/
 /*La regla-at CSS @media asocia un grupo de declaraciones anidadas*/
 /* @media screen Destinado a principalmente a pantallas de computadora a color.*/
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 768px){
     main h1{
         font-size: 40px;
         margin-bottom: 40px;
     }
-}
+}*/
 .hero{
     width: 100%;
     max-width: 1200px;
