@@ -10,6 +10,16 @@
 html{
     font-size: 60%;
 }
+.caja{
+    /*width: 940px;*/
+    position: relative;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #ffffff;
+    /*margin-bottom: 20px;*/
+    text-align: center;
+
+}
 
 body{
     font-size: 17px;
@@ -26,12 +36,12 @@ main{
     justify-content: center;
     align-items: center;
 }
-main h1{
+/*main h1{
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 20px;
     text-align: center;
-}
+}*/
 /*La regla-at CSS @media asocia un grupo de declaraciones anidadas*/
 /* @media screen Destinado a principalmente a pantallas de computadora a color.*/
 @media screen and (min-width: 768px){
