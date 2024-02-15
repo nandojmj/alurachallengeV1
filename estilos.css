@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;/* el borde de cada uno de los item sera el limite del espacio*/
 }
 
 /* Selecciona el elemento raíz del documento: <html> en el caso de HTML */
@@ -17,13 +17,6 @@ body{
     background-color: #262835;
 }
 
-/*borrar:root{
-    --color-fondo: #262835;
-    --color-input: #313443;
-    --color-primario:#1A8CE6;
-    --color-gris: #E8E8E8;
-}*/
-
 main{
     width: 95%;
     height: 100dvh;
@@ -35,7 +28,7 @@ main{
 }
 main h1{
     font-size: 20px;
-    color: #E8E8E8;
+    color: #ffffff;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -108,18 +101,11 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     transition: all .3s ease;
     cursor: pointer;
 }
-.btn:hover{ /* Selecciona cualquier elemento <a> cuando está "mantenido (hovered)" */
+.btn:hover{ /* cuando el usuario pasa el cursor sobre el elemento produce un cambio*/
     background-color: transparent;
     color: #1A8CE6;
 }
-/*.btn--color{
-    background-color: transparent;
-    color: #1A8CE6;
-}
-.btn--color:hover{
-    background-color: #1A8CE6;
-    color:#E8E8E8;
-}*/
+
 .hero p{ /* pie de pagina */
     position: absolute;
     bottom: -30px;
