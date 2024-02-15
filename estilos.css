@@ -6,16 +6,16 @@
     box-sizing: border-box;/* el borde de cada uno de los item sera el limite del espacio*/
 }
 
-/* Selecciona el elemento raíz del documento: <html> en el caso de HTML */
+/* Selecciona el elemento raíz del documento: <html> en el caso de HTML 
 html{
     font-size: 60%;
-}
+}*/
 
 .caja{
     /*width: 940px;*/
     position: relative;
-    margin: 0 auto;
-    font-size: 16px;
+    margin: 20px auto;
+    font-size: 26px;
     color: #ffffff;
     /*margin-bottom: 20px;*/
     text-align: center;
@@ -30,12 +30,12 @@ body{
 
 main{
     width: 95%;
-    height: 100dvh;/*Si desea llenar al menos toda la altura del navegador*/
+    height: 90dvh;/*Si desea llenar al menos toda la altura del navegador*/
     margin: 0 auto;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 /*main h1{
     font-size: 20px;
