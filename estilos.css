@@ -126,5 +126,17 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     font-size: 15px;
 }
 .hero p a{ /* pie de pagina */
+    color: #1A8CE6;
+}
+
+.footer p{ /* Pie de pagina*/
+    text-align: center;
+    padding: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.footer p a{
     color: #1A8CE6;/
 }
