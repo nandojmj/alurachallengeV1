@@ -31,7 +31,7 @@ body{
 
 main{
     width: 95%;
-    height: 90dvh;/*Si desea llenar al menos toda la altura del navegador*/
+    /*height: 90dvh;Si desea llenar al menos toda la altura del navegador*/
     margin: 0 auto;
     /*display: flex;
     flex-direction: column;
@@ -76,12 +76,12 @@ textarea{
     border: none;
     height: 180px;
     padding: 16px;
-    outline: none;
-    resize: vertical;
+    /*outline: none;
+    /*resize: vertical;*/
     background-color: #313443;
     color: #E8E8E8;
     border-radius: 16px;
-    transition: all .3s;
+    /*transition: all .3s;*/
     font-size: 16px;
 }
 @media screen and (min-width: 768px){
@@ -127,4 +127,16 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
 }
 .hero p a{ /* pie de pagina */
     color: #1A8CE6;/
+}
+
+footer{ /* Pie de pagina*/
+    text-align: center;
+    padding: 40px;
+    bottom: -30px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
 }
