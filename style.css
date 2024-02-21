@@ -1,28 +1,26 @@
-
-.caja{
+.encabezado h1{
     width: 940px;
     position: relative;
-    margin: 0 auto;
-
-}
-.caja h1{
+    margin: 20px auto;
     font-size: 30px;
+    font-family: Helvetica, Arial, sans-serif;
     color: #ffffff;
     text-align: center;
-    padding: 40px;
 }
 
-/* Selecciona todos los elementos. El selector universal CSS (*) coincide con elementos de cualquier tipo*/
-*{
+*{/* Selecciona todos los elementos. El selector universal CSS (*) coincide con elementos de cualquier tipo*/
     margin: 0;
     padding: 0;
-    box-sizing: border-box;/* el borde de cada uno de los item sera el limite del espacio*/
+    box-sizing: border-box;
+    /* el borde de cada uno de los item sera el limite del espacio*/
 }
 
-/* Selecciona el elemento raíz del documento: <html> en el caso de HTML */
-/*html{
-    font-size: 60%;
-}*/
+@media screen and (max-width:480px){
+   .encabezado h1{
+        width: auto;
+        font-size: 20px;
+    }
+}
 
 body{
     font-size: 17px;
@@ -31,40 +29,31 @@ body{
 }
 
 main{
-    width: 95%;
-    /* height: 100dvh;*/
+    width: 940px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-/*La regla-at CSS @media asocia un grupo de declaraciones anidadas*/
-/* @media screen Destinado a principalmente a pantallas de computadora a color.*/
-@media screen and (min-width: 768px){
-    main h1{
-        font-size: 40px;
-        margin-bottom: 40px;
+@media screen and (max-width: 480px){
+    main{
+        width: auto; 
     }
 }
-.hero{
+
+.caja-principal{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     background-color: rgba(106, 108, 104, 0.35);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(32px);
-    /*-webkit-*/
-    backdrop-filter: blur(32px);
     padding: 20px;
     display: grid;
     gap: 20px;
     position: relative;
 }
+
 @media screen and (min-width: 768px){
-    .hero{
+    .caja-principal{
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -73,12 +62,12 @@ textarea{
     border: none;
     height: 180px;
     padding: 16px;
-    outline: none;
-    resize: vertical;
+    /*outline: none;
+    /*resize: vertical;*/
     background-color: #313443;
     color: #E8E8E8;
     border-radius: 16px;
-    transition: all .3s;
+    /*transition: all .3s;*/
     font-size: 16px;
 }
 @media screen and (min-width: 768px){
@@ -92,13 +81,13 @@ textarea::placeholder{
 textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     border: 1px solid #1A8CE6;
 }
-.hero__botones{
+.botones-principal{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.btn{
+.botones{
     display: inline-block;
     background-color: #1A8CE6;
     color: #E8E8E8;
@@ -109,12 +98,12 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     transition: all .3s ease;
     cursor: pointer;
 }
-.btn:hover{ /* cuando el usuario pasa el cursor sobre el elemento produce un cambio*/
+.botones:hover{ /* cuando el usuario pasa el cursor sobre el elemento produce un cambio*/
     background-color: transparent;
     color: #1A8CE6;
 }
 
-.hero p{ /* pie de pagina */
+/*.hero p{  pie de pagina 
     position: absolute;
     bottom: -30px;
     width: 100%;
@@ -122,6 +111,18 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     color: #ffffff;
     font-size: 15px;
 }
-.hero p a{ /* pie de pagina */
+.hero p a{ /* pie de pagina 
+    color: #1A8CE6;
+}*/
+
+.footer p{ /* Pie de pagina*/
+    text-align: center;
+    padding: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.footer a{
     color: #1A8CE6;/
 }
