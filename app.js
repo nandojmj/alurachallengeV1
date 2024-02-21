@@ -7,6 +7,31 @@ La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
 */
 
+// Codigo para encriptación
+const btnEncriptar = document.getElementById('btnEncriptar');
+btnEncriptar.addEventListener('click', encriptarTexto);
+
+// Función para encriptar el texto
+function encriptarTexto(e) {
+    e.preventDefault();
+    let inputTexto = document.getElementById("textoEntrada").value;
+    
+    if (!validarEntrada(inputTexto)) {
+        alert("Por favor, ingresa solo letras minúsculas sin acentos.");
+        return;
+    }
+    
+    var textoEncriptado = inputTexto
+    .replace(/e/g, "enter")
+    .replace(/i/g, "imes")
+    .replace(/a/g, "ai")
+    .replace(/o/g, "ober")
+    .replace(/u/g, "ufat");
+    
+    document.getElementById("textoResultado").textContent = textoEncriptado;
+    
+}
+
 // TODO ---- Primera ejecución del código con desencriptación
 const btnDesencriptar = document.getElementById("btnDesencriptar");
 btnDesencriptar.addEventListener('click', desencriptarTexto)
@@ -32,31 +57,6 @@ function desencriptarTexto(e) {
     
     document.getElementById("textoResultado").textContent = textoDesencriptado;
     
-    
-}
-
-// TODO ---- Segunda ejecución del código con encriptación
-const btnEncriptar = document.getElementById('btnEncriptar');
-btnEncriptar.addEventListener('click', encriptarTexto);
-
-// Función para encriptar el texto
-function encriptarTexto(e) {
-    e.preventDefault();
-    let inputTexto = document.getElementById("textoEntrada").value;
-    
-    if (!validarEntrada(inputTexto)) {
-        alert("Por favor, ingresa solo letras minúsculas sin acentos.");
-        return;
-    }
-    
-    var textoEncriptado = inputTexto
-    .replace(/e/g, "enter")
-    .replace(/i/g, "imes")
-    .replace(/a/g, "ai")
-    .replace(/o/g, "ober")
-    .replace(/u/g, "ufat");
-    
-    document.getElementById("textoResultado").textContent = textoEncriptado;
     
 }
 
