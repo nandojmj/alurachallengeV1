@@ -1,5 +1,5 @@
 
-/* Encriptacion
+/* Encriptacion de Texto
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
 La letra "a" es convertida para "ai"
@@ -7,11 +7,10 @@ La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
 */
 
-// Codigo para encriptación
+/*Encriptar el texto*/
 const btnEncriptar = document.getElementById('btnEncriptar');
 btnEncriptar.addEventListener('click', encriptarTexto);
 
-// Función para encriptar el texto
 function encriptarTexto(e) {
     e.preventDefault();
     let inputTexto = document.getElementById("textoEntrada").value;
@@ -32,11 +31,10 @@ function encriptarTexto(e) {
     
 }
 
-// TODO ---- Primera ejecución del código con desencriptación
+/*Desencriptar el texto*/
 const btnDesencriptar = document.getElementById("btnDesencriptar");
 btnDesencriptar.addEventListener('click', desencriptarTexto)
 
-// Función para desencriptar el texto
 function desencriptarTexto(e) {
     e.preventDefault();
     let inputTexto = document.getElementById("textoEntrada").value;
@@ -54,28 +52,24 @@ function desencriptarTexto(e) {
     .replace(/ufat/g, 'u')
     .replace(/imes/g, 'i');
 
-    
-    document.getElementById("textoResultado").textContent = textoDesencriptado;
-    
-    
+        document.getElementById("textoResultado").textContent = textoDesencriptado;
+       
 }
 
-// Función para validar que solo contiene letras minúsculas, espacios y sin acentos
-// expresión regular que verifique si una cadena contiene solo caracteres entre az aceptar espacios en blanco también.
-//
+/*validar que solo contiene letras minúsculas, espacios y sin acentos*/
 function validarEntrada(texto) {
     return /^[a-z\s]+$/.test(texto);
 }
 
+/*Borrar texto del area de texto */
 function borrarEntrada() {
     document.getElementById("textoEntrada").value = "";
 }
 
-// TODO ---- Ejecucion de la función para copiar el texto al portapapeles
+/*Copiar texto al portapapeles*/
 const btnCopiar = document.getElementById('copiarPortapapeles');
 btnCopiar.addEventListener('click', copiarPortapapeles);
 
-// Función para copiar el texto al portapapeles
 function copiarPortapapeles(e) {
     e.preventDefault();
     let textoResultado = document.getElementById("textoResultado").textContent;
