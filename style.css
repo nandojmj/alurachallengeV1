@@ -24,12 +24,6 @@
     /* el borde de cada uno de los item sera el limite del espacio*/
 }
 
-@media screen and (max-width:480px){
-   .encabezado h1{
-        width: auto;
-        font-size: 20px;
-    }
-}
 
 body{
     font-size: 17px;
@@ -59,12 +53,9 @@ textarea{
     border: none;
     height: 180px;
     padding: 16px;
-    /*outline: none;
-    /*resize: vertical;*/
     background-color: #597b7a;
     color:  #FFFFFF;
     border-radius: 16px;
-    /*transition: all .3s;*/
     font-size: 16px;
     background: url(imagenes/bg1.jpg);
 }
@@ -76,33 +67,46 @@ textarea::placeholder{
 textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     border: 1px solid #96b9b9;
 }
-
+.alerta{
+    display: flex;
+    color: #E8E8E8;
+    font-family: sans-serif;
+}
 .botones-principal{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 40px;
 }
+
+.boton-copiar{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
 .botones{
     display: inline-block;
     width: 35%;
     background-color: #FFFFFF;
     color: #294444;
     text-decoration: none;
-    padding: 12px 0;
+    padding: 11px 0;
     text-align: center;
     border-radius: 50px;
     border: 2px solid #96b9b9;
     transition: all .3s ease;
     cursor: pointer;
     font-family: sans-serif;
+    font-size: 16px;
 }
 .botones:hover{ /* cuando el usuario pasa el cursor sobre el elemento produce un cambio*/
     background-color: transparent;
     color: #FFFFFF;
 }
 
-.footer p{ /* Pie de pagina*/
+/* CSS para el footer - Pie de pagina*/
+.footer p{ 
     text-align: center;
     padding: 50px 20px;
     color: #ffffff;
@@ -114,7 +118,15 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     color: #96b9b9;/
 }
 
+
+/* CSS para responcive*/
+
 @media screen and (max-width: 480px){
+    .encabezado h1{
+        width: auto;
+        font-size: 20px;
+    }
+    
     main{
         width: auto;   
     }
