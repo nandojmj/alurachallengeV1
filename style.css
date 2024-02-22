@@ -26,7 +26,7 @@
 
 body{
     font-size: 17px;
-    background-color: #1e2f2f;
+    background-color: #3c3c3c;
 }
 
 main{
@@ -38,9 +38,9 @@ main{
     width: 95%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color:#294444;
+    background-color:#727272;
     border-radius: 16px;
-    box-shadow: 0 4px 30px #000000;
+    box-shadow: 0 4px 30px #242424;
     padding: 20px;
     display: grid;
     gap: 40px;
@@ -50,26 +50,27 @@ main{
 textarea{
     width: 100%;
     border: none;
-    height: 180px;
     padding: 16px;
-    background-color: #597b7a;
-    color:  #FFFFFF;
+    height: 180px;
+    color:  #242424;
     border-radius: 16px;
     font-size: 16px;
-    background: url(imagenes/bg1.jpg);
+    background-color: #afafaf;
+    /*background: url(imagenes/bg1.jpg);*/
+    box-shadow: inset -2px 8px 9px 1px rgba(30,47,47,0.65);
 }
 
 textarea::placeholder{
-    color: #E8E8E8;
+    color: #242424;
 }
 
-textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
-    border: 1px solid #96b9b9;
+textarea:focus{ 
+    border: 1px solid #f1f1f1;
 }
 
 .alerta{
     display: flex;
-    color: #E8E8E8;
+    color: #f1f1f1;
     font-family: sans-serif;
 }
 
@@ -89,29 +90,31 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
 .botones{
     display: inline-block;
     width: 35%;
-    background-color: #FFFFFF;
-    color: #294444;
+    background-color: #3c3c3c;
+    color: #f1f1f1;
     text-decoration: none;
     padding: 11px 0;
     text-align: center;
     border-radius: 50px;
-    border: 2px solid #96b9b9;
+    border: 2px solid #f1f1f1;
     transition: all .3s ease;
     cursor: pointer;
     font-family: sans-serif;
     font-size: 16px;
 }
 
-.botones:hover{ /* cuando el usuario pasa el cursor sobre el elemento produce un cambio*/
+.botones:hover{ 
     background-color: transparent;
-    color: #FFFFFF;
+    color: #f1f1f1;
+    box-shadow: inset 0 0 10px rgba(255,255,255,.7);
+    font-size: 18px;
 }
 
 /* CSS para el footer - Pie de pagina*/
 .footer p{ 
     text-align: center;
     padding: 50px 20px;
-    color: #ffffff;
+    color: #f1f1f1;
     font-size: 14px;
     font-family: sans-serif;
 }
