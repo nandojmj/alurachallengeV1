@@ -11,7 +11,7 @@ Sugerencias de implementación, cursos y capacitación para este desafío, puede
  Curso de HTML5 y CSS3 parte 3: Trabajando con formularios y tablas.
  Curso de Git y GitHub: repositorio, commit y versiones.
 
-**Las "llaves" de encriptación para son las siguientes:**
+**Las "llaves" de encriptación para el Challenge son las siguientes:**
 
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
