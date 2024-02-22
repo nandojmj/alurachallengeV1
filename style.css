@@ -24,10 +24,9 @@
     /* el borde de cada uno de los item sera el limite del espacio*/
 }
 
-
 body{
     font-size: 17px;
-    background-color: #131b1b;
+    background-color: #1e2f2f;
 }
 
 main{
@@ -67,11 +66,13 @@ textarea::placeholder{
 textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     border: 1px solid #96b9b9;
 }
+
 .alerta{
     display: flex;
     color: #E8E8E8;
     font-family: sans-serif;
 }
+
 .botones-principal{
     margin-top: 20px;
     display: flex;
@@ -100,6 +101,7 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     font-family: sans-serif;
     font-size: 16px;
 }
+
 .botones:hover{ /* cuando el usuario pasa el cursor sobre el elemento produce un cambio*/
     background-color: transparent;
     color: #FFFFFF;
@@ -118,8 +120,7 @@ textarea:focus{ /* Selecciona cualquier <input> cuando se enfoca */
     color: #96b9b9;/
 }
 
-
-/* CSS para responcive*/
+/* CSS para responsive*/
 
 @media screen and (max-width: 480px){
     .encabezado h1{
