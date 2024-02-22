@@ -1,15 +1,15 @@
-Alura _ One Oracle Next Education
+**Alura _ One Oracle Next Education**
 
-Challenge ONE Sprint 01: Construye un encriptador de texto con Javascript
+**Challenge ONE Sprint 01: Construye un encriptador de texto con Javascript**
 
 Sugerencias de implementación, cursos y capacitación para este desafío, puedes usar HTML y Javascript sin usar frameworks. Algunos cursos de la plataforma que te pueden ayudar, como:
 
- Curso de Lógica de programación: sumérgete en la programación con JavaScript
- Curso de Lógica de programación: explorar funciones y listas
- Curso de HTML5 y CSS3 parte 1: Mi primera página web
- Curso de HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación
- Curso de HTML5 y CSS3 parte 3: Trabajando con formularios y tablas
- Curso de Git y GitHub: repositorio, commit y versiones
+ Curso de Lógica de programación: sumérgete en la programación con JavaScript.
+ Curso de Lógica de programación: explorar funciones y listas.
+ Curso de HTML5 y CSS3 parte 1: Mi primera página web.
+ Curso de HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación.
+ Curso de HTML5 y CSS3 parte 3: Trabajando con formularios y tablas.
+ Curso de Git y GitHub: repositorio, commit y versiones.
 
 **Las "llaves" de encriptación para son las siguientes:**
 
@@ -40,11 +40,11 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 **Elementos principales de la página**
 
-Título de su sitio web
-Campo para el texto que va a ser encriptado/desencriptado
-Un botón para encriptar
-Un botón para desencriptar
-Un boón para copiar
+Título de su sitio web.
+Campo para el texto que va a ser encriptado/desencriptado.
+Un botón para encriptar.
+Un botón para desencriptar.
+Un boón para copiar.
 Área para mostrar el texto encriptado/desencriptado.
-Un pie de pagina con los datos de la persona que desarrolló el sitio web!
+Un pie de pagina con los datos de la persona que desarrolló el sitio web.
 
