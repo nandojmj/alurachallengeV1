@@ -5,16 +5,16 @@
     font-size: 35px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
-    color: #FFFFFF;
+    color: #727272;
     text-align: center;
     padding: 20px;
 }
 
 .imagen-encabezado{
-    width: 1em; 
+    width: 3em; 
     position: relative;
     top: 10px;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 *{/* Selecciona todos los elementos. El selector universal CSS (*) coincide con elementos de cualquier tipo*/
@@ -26,7 +26,7 @@
 
 body{
     font-size: 17px;
-    background-color: #3c3c3c;
+    background-color: #FFFFFF;
 }
 
 main{
@@ -40,7 +40,7 @@ main{
     margin: 0 auto;
     background-color:#727272;
     border-radius: 16px;
-    box-shadow: 0 4px 30px #242424;
+    /*box-shadow: 0 4px 30px #242424;*/
     padding: 20px;
     display: grid;
     gap: 40px;
@@ -52,16 +52,16 @@ textarea{
     border: none;
     padding: 16px;
     height: 180px;
-    color:  #242424;
+    color:  #727272;
     border-radius: 16px;
     font-size: 16px;
-    background-color: #afafaf;
+    background-color: #f1f1f1;
     /*background: url(imagenes/bg1.jpg);*/
-    box-shadow: inset -2px 8px 9px 1px rgba(30,47,47,0.65);
+     /*box-shadow: inset -2px 8px 9px 1px rgba(30,47,47,0.65);*/
 }
 
 textarea::placeholder{
-    color: #242424;
+    color: #727272;
 }
 
 textarea:focus{ 
@@ -90,7 +90,7 @@ textarea:focus{
 .botones{
     display: inline-block;
     width: 35%;
-    background-color: #3c3c3c;
+    background-color: #7fb8c1;
     color: #f1f1f1;
     text-decoration: none;
     padding: 11px 0;
@@ -104,7 +104,7 @@ textarea:focus{
 }
 
 .botones:hover{ 
-    background-color: transparent;
+    background-color: #f38f3a;
     color: #f1f1f1;
     box-shadow: inset 0 0 10px rgba(255,255,255,.7);
     font-size: 18px;
@@ -114,13 +114,10 @@ textarea:focus{
 .footer p{ 
     text-align: center;
     padding: 50px 20px;
-    color: #f1f1f1;
-    font-size: 14px;
+    color: #727272;
+    font-size: 15px;
     font-family: sans-serif;
-}
-
-.footer a{
-    color: #96b9b9;/
+    font-weight: bold;
 }
 
 /* CSS para responsive*/
